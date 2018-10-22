@@ -9,9 +9,9 @@ module APIv2
     end
     get '/alphabet' do
       body case params[:case]
-        when 'uppercase' then ('A'..'Z')
-        else ('a'..'z')
-      end.to_a
+           when 'uppercase' then ('A'..'Z')
+           else ('a'..'z')
+           end.to_a
       status 200
     end
   end
