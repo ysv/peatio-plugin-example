@@ -15,7 +15,7 @@ Read more about Peatio plugin API v2 at [#1766](https://github.com/rubykube/peat
 ![image](https://user-images.githubusercontent.com/7421323/37644319-180baba8-2c2c-11e8-9658-a8b71a285b59.png)
 ![image](https://user-images.githubusercontent.com/7421323/37644335-266abf22-2c2c-11e8-95b8-c0b062813735.png)
 
-To install this plugin insert the following into `config/plugins.yml` and run `bin/install_plugins`:
+To install this plugin insert the following into `Gemfile.plugin` and run `bundle istall`:
 ```ruby
-gem 'peatio-plugin-example', github: 'rubykube/peatio-plugin-example'
+gem 'peatio-plugin-example', '~> 0.2.0', github: 'rubykube/peatio-plugin-example'
 ```
